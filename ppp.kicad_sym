@@ -506,7 +506,7 @@
 				)
 			)
 		)
-		(property "Value" "NTR-P/1 (mono)"
+		(property "Value" "custom (mono)"
 			(at 0 -40.64 0)
 			(effects
 				(font
@@ -532,7 +532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mains transformer: 230V / 2x310V 0.25A, 6.3V 10A, 2x aux winding for grid bias"
+		(property "Description" "Mains transformer (custom): 230V / 2x310V 0.35A, 12.6V 4A, 2x aux winding for grid bias"
 			(at 0 0 0)
 			(effects
 				(font
@@ -562,7 +562,7 @@
 					(type outline)
 				)
 			)
-			(text "310V\n0.25A"
+			(text "310V\n0.35A"
 				(at -6.35 27.94 0)
 				(effects
 					(font
@@ -581,7 +581,7 @@
 					(type outline)
 				)
 			)
-			(text "6.3V\n10A"
+			(text "12.6V\n4A"
 				(at -6.35 10.16 0)
 				(effects
 					(font
@@ -638,7 +638,7 @@
 					(type outline)
 				)
 			)
-			(text "310V\n0.25A"
+			(text "310V\n0.35A"
 				(at -6.35 -33.02 0)
 				(effects
 					(font

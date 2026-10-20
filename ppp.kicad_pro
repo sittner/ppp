@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "filename": "ppp.kicad_pro",
+    "version": 3
+  },
+  "schematic": {
+    "legacy_lib_dir": "",
+    "legacy_lib_list": []
+  },
+  "sheets": [
+    [
+      "b1cb1816-7d85-457c-9f32-2a1422d00e17",
+      "Root"
+    ],
+    [
+      "dd530390-0355-484f-a7a2-894bd120fa23",
+      "Amplifier"
+    ],
+    [
+      "40b54727-0c93-48d9-8a43-537c4322e8cb",
+      "Power Supply"
+    ]
+  ],
+  "boards": [],
+  "text_variables": {},
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  }
+}

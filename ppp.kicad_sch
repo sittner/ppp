@@ -1,0 +1,114 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b1cb1816-7d85-457c-9f32-2a1422d00e17")
+	(paper "A4")
+	(title_block
+		(title "PPP power amplifier 6x EL34 (mono)")
+		(date "2026-10-20")
+		(rev "1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 50.8 50.8)
+		(size 50.8 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dd530390-0355-484f-a7a2-894bd120fa23")
+		(property "Sheetname" "Amplifier"
+			(at 50.8 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "amp.kicad_sch"
+			(at 50.8 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ppp"
+				(path "/b1cb1816-7d85-457c-9f32-2a1422d00e17"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 50.8)
+		(size 50.8 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "40b54727-0c93-48d9-8a43-537c4322e8cb")
+		(property "Sheetname" "Power Supply"
+			(at 127 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "supply.kicad_sch"
+			(at 127 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ppp"
+				(path "/b1cb1816-7d85-457c-9f32-2a1422d00e17"
+					(page "3")
+				)
+			)
+		)
+	)
+	(text "PPP tube power amplifier, 6x EL34 parallel push-pull (circlotron), mono block"
+		(exclude_from_sim no)
+		(at 50.8 40 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "2aaf0687-2365-4c57-b2bb-938ea579f4db")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

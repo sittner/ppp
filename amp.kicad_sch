@@ -7753,7 +7753,7 @@
 		)
 		(uuid "012e4e3f-a801-487e-9900-011f20c187c3")
 	)
-	(text "Original designators: V1=Rö1 (ECC83), V2=Rö2 (ECC81), V3..V8=Rö3..Rö8 (EL34), T1=Ü1 (E-1220), T2=Ü2.\nSupply rails A1/G1/M1, A2/G2/M2 and UG1/UG2 come from the power supply sheet.\nUpper tubes: anode A1, screen G1, cathode M1 (G1 is referenced to M1).\nLower tubes: anode A2, screen G2, cathode M2 (G2 is referenced to M2).\nUg1/Ug2: bias windings, floating on M1/M2; bias adjust P1..P6."
+	(text "Original designators: V1=Rö1 (ECC83), V2=Rö2 (ECC81), V3..V8=Rö3..Rö8 (EL34), T1=Ü1 (E-1220), T2=Ü2 (AP-634/2).\nSupply rails A1/G1/M1, A2/G2/M2 and UG1/UG2 come from the power supply sheet.\nUpper tubes: anode A1, screen G1, cathode M1 (G1 is referenced to M1).\nLower tubes: anode A2, screen G2, cathode M2 (G2 is referenced to M2).\nUg1/Ug2: bias windings, floating on M1/M2; bias adjust P1..P6."
 		(exclude_from_sim no)
 		(at 187.96 345.44 0)
 		(effects
@@ -14949,7 +14949,7 @@
 				)
 			)
 		)
-		(property "Value" "OPT PPP Rkk 330R"
+		(property "Value" "AP-634/2"
 			(at 538.48 156.718 0)
 			(effects
 				(font
@@ -14975,7 +14975,60 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push-pull output transformer for PPP stages with 6x EL34 or 4x KT88"
+			(at 538.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "EXPERIENCE electronics"
+			(at 538.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AP-634/2"
+			(at 538.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specs" "Rkk 330Ω, >140W"
+			(at 538.48 159.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Secondary" "4 / 6 / 8 Ohm"
+			(at 538.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Core" "MD 85 B, 85 x 102 x 75 mm, stud mounting"
+			(at 538.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency response" "20 Hz...20 kHz (-0.3 dB), 80 kHz (-3 dB)"
 			(at 538.48 143.51 0)
 			(effects
 				(font

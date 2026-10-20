@@ -3,6 +3,9 @@
 Review of the KiCad schematic (`amp.kicad_sch`, `supply.kicad_sch`), Rev 1, 2026-10-20.
 Nothing in the schematic has been changed yet; this file lists the proposed changes.
 
+> Branch `kt88`: this review was written for the 6x EL34 version. See
+> `KT88.md` for which items change with 4x KT88.
+
 ## Assumptions
 
 All operating points below are calculated estimates and should be verified by

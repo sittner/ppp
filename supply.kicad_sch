@@ -5,7 +5,7 @@
 	(uuid "6c1868f0-d431-472d-b951-cfa7f6ec15bd")
 	(paper "A3")
 	(title_block
-		(title "PPP power amplifier 6x EL34 - power supply (mono)")
+		(title "PPP power amplifier 4x KT88 - power supply (mono)")
 		(date "2026-10-20")
 		(rev "1")
 	)
@@ -2940,7 +2940,7 @@
 		)
 		(uuid "47a33e7f-d1a9-42f2-9dfd-419cfc490243")
 	)
-	(text "PPP 6x EL34 - Power supply"
+	(text "PPP 4x KT88 - Power supply"
 		(exclude_from_sim no)
 		(at 50.8 50.8 0)
 		(effects

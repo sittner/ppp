@@ -5,7 +5,7 @@
 	(uuid "b1cb1816-7d85-457c-9f32-2a1422d00e17")
 	(paper "A4")
 	(title_block
-		(title "PPP power amplifier 6x EL34 (mono)")
+		(title "PPP power amplifier 4x KT88 (mono)")
 		(date "2026-10-20")
 		(rev "1")
 	)
@@ -94,7 +94,7 @@
 			)
 		)
 	)
-	(text "PPP tube power amplifier, 6x EL34 parallel push-pull (circlotron), mono block"
+	(text "PPP tube power amplifier, 4x KT88 parallel push-pull (circlotron), mono block"
 		(exclude_from_sim no)
 		(at 50.8 40 0)
 		(effects

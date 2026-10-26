@@ -13054,7 +13054,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "UF4007"
 			(at 448.31 159.512 0)
 			(effects
 				(font
@@ -13330,7 +13330,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "UF4007"
 			(at 448.31 186.436 0)
 			(effects
 				(font

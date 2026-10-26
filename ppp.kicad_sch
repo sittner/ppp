@@ -67,8 +67,8 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "40b54727-0c93-48d9-8a43-537c4322e8cb")
-		(property "Sheetname" "Power Supply"
+		(uuid "5a36eaf1-6ee9-5027-afd0-f72ece2a9289")
+		(property "Sheetname" "SMPS primary"
 			(at 127 50.0884 0)
 			(effects
 				(font
@@ -77,7 +77,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "supply.kicad_sch"
+		(property "Sheetfile" "smps_pri.kicad_sch"
 			(at 127 81.8646 0)
 			(effects
 				(font
@@ -90,6 +90,48 @@
 			(project "ppp"
 				(path "/b1cb1816-7d85-457c-9f32-2a1422d00e17"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 101.6)
+		(size 50.8 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0e882db0-d180-57fc-8935-abfc378c238a")
+		(property "Sheetname" "SMPS outputs"
+			(at 127 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "smps_sec.kicad_sch"
+			(at 127 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ppp"
+				(path "/b1cb1816-7d85-457c-9f32-2a1422d00e17"
+					(page "4")
 				)
 			)
 		)

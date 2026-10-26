@@ -199,16 +199,27 @@ equal. Keep them small, because they carry the ±150 V audio swing. A 1–2.2 nF
 chassis to bus − on the SMPS board closes the loop for primary-generated
 common-mode current locally.
 
-## Changes to the schematic (to do)
+## Changes to the schematic (draft done)
 
-- `supply.kicad_sch`: T101, D101/D102, F101 sizing and the HV filter are replaced by an SMPS
-  sheet (PFC, LLC, T201, rectifiers, cap multipliers, heater buck). The labels
-  A1/A2, M1/M2, G1/G2, UG1/UG2 and HEATER_A/B stay the same, so `amp.kicad_sch`
-  hardly changes.
+- `supply.kicad_sch` is replaced by two sheets:
+  - `smps_pri.kicad_sch` (page 3): mains input, EMI filter, NTC + relay bypass, UC3854B PFC,
+    UCC25600 + UCC27714 half-bridge, Lr/Cr, current transformer, startup (depletion FET) and
+    aux supply, bus-OK comparator.
+  - `smps_sec.kicad_sch` (page 4): T201, both bank supplies (SiC bridge, CM choke, cap
+    multiplier, B+ delay timer), heater buck synced from W3.
+  The labels A1/A2, M1/M2, G1/G2, UG1/UG2 and HEATER_A/B stay the same, so `amp.kicad_sch`
+  hardly changes. The two SMPS sheets connect through the global labels T201_P1/P2 and
+  T201_AUX1/2 and the power net BUS-.
 - `amp.kicad_sch`: D5/D6 1N4007 → UF4007. The heaters become DC, the string midpoints
   stay grounded and the heater domain floats otherwise.
-- R101/R103 screen resistors and C101–C104 stay. C101–C104 get the 500 V rating
-  from `IMPROVEMENTS.md`.
+- R101–R104 and C101–C104 keep their references and move to `smps_sec.kicad_sch`.
+  C101–C104 are 500 V now, R102/R104 are 2 × 68k 3 W (`IMPROVEMENTS.md` §1), R101/R103 are 5 W.
+- New symbols in `ppp.kicad_sym`: `T_SMPS_PPP` (T201) and `UC3854B`.
+  **Verify the UC3854B pinout against the data sheet.**
+- Open points in the draft:
+  - Values are start values. Still to calculate: the PFC loops (U-134), the UCC25600
+    RT/DT/OC equations, the TPS54560B compensation, and the RT/CLK sync pulse.
+  - No footprints yet.
 
 ## Effect on IMPROVEMENTS.md / KT88.md
 
